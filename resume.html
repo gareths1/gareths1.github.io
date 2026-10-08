@@ -1,50 +1,97 @@
---- layout: default title: Resume permalink: /resume/ --- {% assign r = site.data.resume %}
-{{ r.name }}
-{{ r.tagline }}
+---
+layout: default
+title: Resume
+permalink: /resume/
+---
+{% assign r = site.data.resume %}
+<link rel="stylesheet" href="{{ '/assets/css/resume.css' | relative_url }}">
 
-{{ r.email }} {% if r.phone %}{{ r.phone }}{% endif %} {{ r.location }}
+<article class="resume">
 
-Education
-{{ r.education.school }}, {{ r.education.city }}
-{{ r.education.graduation }}
-{% for d in r.education.degrees %}
-{{ d }}
-{% endfor %}
-Cumulative GPA: {{ r.education.gpa }}
+  <header class="resume-head">
+    <h1>{{ r.name }}</h1>
+    <p class="resume-tagline">{{ r.tagline }}</p>
+    <p class="resume-contact">
+      <a href="mailto:{{ r.email }}">{{ r.email }}</a>
+      {% if r.phone %}<span>{{ r.phone }}</span>{% endif %}
+      <span>{{ r.location }}</span>
+    </p>
+  </header>
 
-Honors
-{% for h in r.education.honors %}
-{{ h }}
-{% endfor %}
-Employment
-{% for job in r.employment %}
-{{ job.role }}, {{ job.org }}
-{{ job.dates }}
-{% for p in job.points %}
-{{ p }}
-{% endfor %}
-{% endfor %}
-Projects
-{% for proj in r.projects %}
-{% if proj.url %}{{ proj.title }}{% else %}{{ proj.title }}{% endif %}
-{% for p in proj.points %}
-{{ p }}
-{% endfor %}
-{% endfor %}
-Skills
-{% for group in r.skills %}
-{{ group.category }}
-{% for item in group.items %}
-{{ item }}
-{% endfor %}
-{% endfor %}
-Extracurriculars and Certifications
-{% for e in r.extracurriculars %}
-{{ e.title }}
-{{ e.dates }}
-{% if e.points %}
-{% for p in e.points %}
-{{ p }}
-{% endfor %}
-{% endif %}
-{% endfor %}
+  <section>
+    <h2>Education</h2>
+    <div class="entry-head">
+      <h3>{{ r.education.school }}, {{ r.education.city }}</h3>
+      <span class="dates">{{ r.education.graduation }}</span>
+    </div>
+    <ul class="plain">
+      {% for d in r.education.degrees %}<li>{{ d }}</li>{% endfor %}
+    </ul>
+    <p><strong>Cumulative GPA: {{ r.education.gpa }}</strong></p>
+    <h4>Honors</h4>
+    <ul>
+      {% for h in r.education.honors %}<li>{{ h }}</li>{% endfor %}
+    </ul>
+  </section>
+
+  <section>
+    <h2>Employment</h2>
+    {% for job in r.employment %}
+    <div class="entry">
+      <div class="entry-head">
+        <h3>{{ job.role }}, {{ job.org }}</h3>
+        <span class="dates">{{ job.dates }}</span>
+      </div>
+      <ul>
+        {% for p in job.points %}<li>{{ p }}</li>{% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    {% for proj in r.projects %}
+    <div class="entry">
+      <div class="entry-head">
+        <h3>{% if proj.url %}<a href="{{ proj.url }}">{{ proj.title }}</a>{% else %}{{ proj.title }}{% endif %}</h3>
+      </div>
+      <ul>
+        {% for p in proj.points %}<li>{{ p }}</li>{% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <dl class="skills">
+      {% for group in r.skills %}
+      <dt>{{ group.category }}</dt>
+      <dd>
+        <ul>
+          {% for item in group.items %}<li>{{ item }}</li>{% endfor %}
+        </ul>
+      </dd>
+      {% endfor %}
+    </dl>
+  </section>
+
+  <section>
+    <h2>Extracurriculars and Certifications</h2>
+    {% for e in r.extracurriculars %}
+    <div class="entry">
+      <div class="entry-head">
+        <h3>{{ e.title }}</h3>
+        <span class="dates">{{ e.dates }}</span>
+      </div>
+      {% if e.points %}
+      <ul>
+        {% for p in e.points %}<li>{{ p }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </section>
+
+</article>
