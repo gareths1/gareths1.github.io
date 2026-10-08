@@ -1,0 +1,416 @@
+[
+  {
+    "id": "adelie",
+    "common_name": "Adélie Penguin",
+    "scientific_name": "Pygoscelis adeliae",
+    "conservation_status": "Least Concern",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Adelie_penguins_in_the_South_Shetland_Islands.jpg?width=800",
+    "height_cm": 70.0,
+    "weight_kg": 4.5,
+    "diet": "Mostly Antarctic krill, plus small fish",
+    "habitat": "Rocky Antarctic coastlines and pack ice",
+    "facts": [
+      {
+        "id": 3,
+        "text": "Adélies build nests out of small stones, and stones are prized currency.",
+        "source": null
+      },
+      {
+        "id": 4,
+        "text": "They toboggan across the ice on their bellies to travel faster.",
+        "source": null
+      }
+    ]
+  },
+  {
+    "id": "african",
+    "common_name": "African Penguin",
+    "scientific_name": "Spheniscus demersus",
+    "conservation_status": "Endangered",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/African_penguins_at_Boulders_Beach_01.jpg?width=800",
+    "height_cm": 60.0,
+    "weight_kg": 3.0,
+    "diet": "Anchovies, pilchards, sardines and small crustaceans",
+    "habitat": "South-western coast of Africa and offshore islands",
+    "facts": [
+      {
+        "id": 19,
+        "text": "Also known as the 'Jackass Penguin' because of its loud, donkey-like braying call.",
+        "source": null
+      },
+      {
+        "id": 20,
+        "text": "Pink glands above their eyes become darker pink as the penguin gets hotter to cool down body temperature.",
+        "source": null
+      }
+    ]
+  },
+  {
+    "id": "chinstrap",
+    "common_name": "Chinstrap Penguin",
+    "scientific_name": "Pygoscelis antarcticus",
+    "conservation_status": "Least Concern",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pygoscelis_antarcticus_on_the_Half_Moon_Island_02.jpg?width=800",
+    "height_cm": 72.0,
+    "weight_kg": 4.5,
+    "diet": "Antarctic krill, small fish and shrimp",
+    "habitat": "Antarctic peninsula and South Atlantic sub-Antarctic islands",
+    "facts": [
+      {
+        "id": 9,
+        "text": "Named for the narrow black band of feathers under its chin that looks like a helmet strap.",
+        "source": null
+      },
+      {
+        "id": 10,
+        "text": "They take thousands of micro-sleeps lasting only 4 seconds each to stay alert against predators.",
+        "source": null
+      }
+    ]
+  },
+  {
+    "id": "emperor",
+    "common_name": "Emperor Penguin",
+    "scientific_name": "Aptenodytes forsteri",
+    "conservation_status": "Near Threatened",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Penguin_in_Antarctica_jumping_out_of_the_water.jpg?width=800",
+    "height_cm": 115.0,
+    "weight_kg": 30.0,
+    "diet": "Fish, krill and squid",
+    "habitat": "Antarctic sea ice and surrounding waters",
+    "facts": [
+      {
+        "id": 1,
+        "text": "Males incubate the single egg on their feet through the Antarctic winter.",
+        "source": null
+      },
+      {
+        "id": 2,
+        "text": "Emperors can dive to more than 500 metres in search of food.",
+        "source": null
+      }
+    ]
+  },
+  {
+    "id": "erect-crested",
+    "common_name": "Erect-crested Penguin",
+    "scientific_name": "Eudyptes sclateri",
+    "conservation_status": "Endangered",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eudyptes_sclateri_129036290.jpg?width=800",
+    "height_cm": 67.0,
+    "weight_kg": 4.2,
+    "diet": "Pelagic fish, krill and squid",
+    "habitat": "Bounty and Antipodes Islands of New Zealand",
+    "facts": [
+      {
+        "id": 27,
+        "text": "They are able to raise and lower their bright yellow crest feathers upright at will.",
+        "source": null
+      },
+      {
+        "id": 28,
+        "text": "Females habitually lay two eggs but almost always abandon or discard the smaller first egg.",
+        "source": null
+      }
+    ]
+  },
+  {
+    "id": "fiordland",
+    "common_name": "Fiordland Penguin",
+    "scientific_name": "Eudyptes pachyrhynchus",
+    "conservation_status": "Vulnerable",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fiordland_Crested_Penguin_-_Stewart Island_-_New Zealand_(39070132111).jpg?width=800",
+    "height_cm": 60.0,
+    "weight_kg": 3.7,
+    "diet": "Squid, octopus, krill and small fish",
+    "habitat": "Dense rainforests and rocky sea caves of South Island, New Zealand",
+    "facts": [
+      {
+        "id": 23,
+        "text": "One of the few penguin species that nests in temperate rainforests among thick vegetation.",
+        "source": null
+      },
+      {
+        "id": 24,
+        "text": "They have distinctive white stripes on their cheeks beneath yellow crest plumes.",
+        "source": null
+      }
+    ]
+  },
+  {
+    "id": "galapagos",
+    "common_name": "Galápagos Penguin",
+    "scientific_name": "Spheniscus mendiculus",
+    "conservation_status": "Endangered",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/189_365_Galapagos_Penguin_-_Spheniscus_mendiculus,_Fernandina_Island,_Galapagos,_Ecuador,_July_8,_2021_(51329133046).jpg?width=800",
+    "height_cm": 49.0,
+    "weight_kg": 2.5,
+    "diet": "Small fish such as mullet and sardines, plus crustaceans",
+    "habitat": "Galápagos Islands, Ecuador",
+    "facts": [
+      {
+        "id": 17,
+        "text": "It is the only penguin species that lives north of the Equator in the wild.",
+        "source": null
+      },
+      {
+        "id": 18,
+        "text": "To keep cool, they pant like dogs and swim in cold currents brought by the Cromwell Current.",
+        "source": null
+      }
+    ]
+  },
+  {
+    "id": "gentoo",
+    "common_name": "Gentoo Penguin",
+    "scientific_name": "Pygoscelis papua",
+    "conservation_status": "Least Concern",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gentoo_penguin_half_moon_island_1.17.25_DSC_9446-topaz-rawdenoise.jpg?width=800",
+    "height_cm": 76.0,
+    "weight_kg": 5.5,
+    "diet": "Krill, small fish and squid",
+    "habitat": "Sub-Antarctic islands and the Antarctic Peninsula",
+    "facts": [
+      {
+        "id": 11,
+        "text": "Gentoo penguins are the fastest underwater swimmers among all birds, reaching speeds up to 36 km/h (22 mph).",
+        "source": null
+      },
+      {
+        "id": 12,
+        "text": "They are recognized by the bright white bonnet-like stripe extending across the top of their head.",
+        "source": null
+      }
+    ]
+  },
+  {
+    "id": "humboldt",
+    "common_name": "Humboldt Penguin",
+    "scientific_name": "Spheniscus humboldti",
+    "conservation_status": "Vulnerable",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Humboldt_penguin_(Spheniscus_humboldti)_Chiloe.jpg?width=800",
+    "height_cm": 68.0,
+    "weight_kg": 4.2,
+    "diet": "Anchovies, sardines and small schooling fish",
+    "habitat": "Arid coastal Pacific regions of Peru and Chile",
+    "facts": [
+      {
+        "id": 15,
+        "text": "They nest by burrowing into thick layers of dried bat and seabird dung (guano).",
+        "source": null
+      },
+      {
+        "id": 16,
+        "text": "A fleshy, featherless pink patch at the base of their bill acts as a cooling system in warm weather.",
+        "source": null
+      }
+    ]
+  },
+  {
+    "id": "king",
+    "common_name": "King Penguin",
+    "scientific_name": "Aptenodytes patagonicus",
+    "conservation_status": "Least Concern",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Königspinguine_(Aptenodytes_patagonicus)_(3).jpg?width=800",
+    "height_cm": 90.0,
+    "weight_kg": 15.0,
+    "diet": "Lanternfish, squid and crustaceans",
+    "habitat": "Sub-Antarctic islands and ice-free beaches",
+    "facts": [
+      {
+        "id": 7,
+        "text": "King Penguin chicks are covered in thick brown fluff and were once believed to be a separate species called the Oakum Boy.",
+        "source": null
+      },
+      {
+        "id": 8,
+        "text": "Their breeding cycle takes 14 to 16 months, so they raise only two chicks every three years.",
+        "source": null
+      }
+    ]
+  },
+  {
+    "id": "little-blue",
+    "common_name": "Little Blue Penguin",
+    "scientific_name": "Eudyptula minor",
+    "conservation_status": "Least Concern",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eudyptula_novaehollandiae_family_exiting_burrow.jpg?width=800",
+    "height_cm": 33.0,
+    "weight_kg": 1.2,
+    "diet": "Small schooling fish, squid and crustaceans",
+    "habitat": "Coastal burrows around southern Australia and New Zealand",
+    "facts": [
+      {
+        "id": 5,
+        "text": "It is the smallest penguin species in the world.",
+        "source": null
+      },
+      {
+        "id": 6,
+        "text": "Colonies return from sea together at dusk, as in Phillip Island's famous Penguin Parade.",
+        "source": null
+      }
+    ]
+  },
+  {
+    "id": "macaroni",
+    "common_name": "Macaroni Penguin",
+    "scientific_name": "Eudyptes chrysolophus",
+    "conservation_status": "Vulnerable",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eudyptes_chrysolophus_(js)_01.jpg?width=800",
+    "height_cm": 70.0,
+    "weight_kg": 5.5,
+    "diet": "Krill, small crustaceans, fish and squid",
+    "habitat": "Sub-Antarctic islands and the Antarctic Peninsula",
+    "facts": [
+      {
+        "id": 29,
+        "text": "Named by 18th-century English sailors after 'Macaroni' fashion due to their flashy yellow head plumes.",
+        "source": null
+      },
+      {
+        "id": 30,
+        "text": "It is the most abundant penguin species in the world, with millions of breeding pairs.",
+        "source": null
+      }
+    ]
+  },
+  {
+    "id": "magellanic",
+    "common_name": "Magellanic Penguin",
+    "scientific_name": "Spheniscus magellanicus",
+    "conservation_status": "Least Concern",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Magellanic_penguin_magdalena_island_boat_trip_1.19.25_DSC_2744-topaz-rawdenoise.jpg?width=800",
+    "height_cm": 70.0,
+    "weight_kg": 4.0,
+    "diet": "Cuttlefish, squid, krill and various small fish",
+    "habitat": "Coastal Argentina, Chile and the Falkland Islands",
+    "facts": [
+      {
+        "id": 13,
+        "text": "Named after Ferdinand Magellan, who spotted them in 1520 during his circumnavigation voyage.",
+        "source": null
+      },
+      {
+        "id": 14,
+        "text": "They shed feathers around their eyes when overheated to radiate excess body heat into the air.",
+        "source": null
+      }
+    ]
+  },
+  {
+    "id": "northern-rockhopper",
+    "common_name": "Northern Rockhopper Penguin",
+    "scientific_name": "Eudyptes moseleyi",
+    "conservation_status": "Endangered",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Northern_Rockhopper_Penguin_on_Inaccessible_Island.jpg?width=800",
+    "height_cm": 55.0,
+    "weight_kg": 2.5,
+    "diet": "Krill, crustaceans, squid and small fish",
+    "habitat": "Tristan da Cunha and Gough Island in the South Atlantic Ocean",
+    "facts": [
+      {
+        "id": 35,
+        "text": "Features significantly longer, more dramatic yellow plumes than the Southern Rockhopper.",
+        "source": null
+      },
+      {
+        "id": 36,
+        "text": "More than 99% of their global population is restricted to Tristan da Cunha and Gough Island.",
+        "source": null
+      }
+    ]
+  },
+  {
+    "id": "royal",
+    "common_name": "Royal Penguin",
+    "scientific_name": "Eudyptes schlegeli",
+    "conservation_status": "Near Threatened",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eudyptes_schlegeli_1964878.jpg?width=800",
+    "height_cm": 72.0,
+    "weight_kg": 5.5,
+    "diet": "Krill, small fish and squid",
+    "habitat": "Macquarie Island and neighboring islets in the Southern Ocean",
+    "facts": [
+      {
+        "id": 31,
+        "text": "Closely related to Macaroni penguins, but distinguished by their white or pale grey faces.",
+        "source": null
+      },
+      {
+        "id": 32,
+        "text": "They nest exclusively on sub-Antarctic Macquarie Island and surrounding rocky islets.",
+        "source": null
+      }
+    ]
+  },
+  {
+    "id": "snares",
+    "common_name": "Snares Penguin",
+    "scientific_name": "Eudyptes robustus",
+    "conservation_status": "Vulnerable",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Snares_Penguin,_Southland,_NZ-SO,_NZ_imported_from_iNaturalist_photo_462871455.jpg?width=800",
+    "height_cm": 60.0,
+    "weight_kg": 3.0,
+    "diet": "Krill, small squid and fish",
+    "habitat": "Snares Islands off the southern coast of New Zealand",
+    "facts": [
+      {
+        "id": 25,
+        "text": "Breeds exclusively on the tiny Snares Islands group, making its range one of the smallest of any penguin.",
+        "source": null
+      },
+      {
+        "id": 26,
+        "text": "They nest in colonies beneath tree canopies or among dense Olearia forests.",
+        "source": null
+      }
+    ]
+  },
+  {
+    "id": "southern-rockhopper",
+    "common_name": "Southern Rockhopper Penguin",
+    "scientific_name": "Eudyptes chrysocome",
+    "conservation_status": "Vulnerable",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/2024_Eudyptes_chrysocome_-_Felsenpinguin_-_by_2eight_-_9SC5828.jpg?width=800",
+    "height_cm": 52.0,
+    "weight_kg": 2.7,
+    "diet": "Krill, squid, octopus, lanternfish and crustaceans",
+    "habitat": "Rocky coasts of sub-Antarctic islands in the South Atlantic and Indian Oceans",
+    "facts": [
+      {
+        "id": 33,
+        "text": "Instead of waddling or sliding, they navigate steep cliff sides by hopping from boulder to boulder.",
+        "source": null
+      },
+      {
+        "id": 34,
+        "text": "They aggressively defend their nests using bill-jabbing and loud harsh calls.",
+        "source": null
+      }
+    ]
+  },
+  {
+    "id": "yellow-eyed",
+    "common_name": "Yellow-eyed Penguin",
+    "scientific_name": "Megadyptes antipodes",
+    "conservation_status": "Endangered",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yellow_Eyed_Penguin._(Megadyptes_antipodes)_(9868019174).jpg?width=800",
+    "height_cm": 65.0,
+    "weight_kg": 5.5,
+    "diet": "Small to medium surface and bottom-dwelling fish, and squid",
+    "habitat": "Coastal forests and scrublands of southern New Zealand and sub-Antarctic islands",
+    "facts": [
+      {
+        "id": 21,
+        "text": "Known locally by its Māori name 'Hoiho', which means 'noise shouter'.",
+        "source": null
+      },
+      {
+        "id": 22,
+        "text": "Unlike most colonial penguins, Yellow-eyed penguins nest out of sight of one another in coastal forests.",
+        "source": null
+      }
+    ]
+  }
+]
