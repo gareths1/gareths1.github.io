@@ -27,7 +27,7 @@ instead of standard library containers.
 - Dynamically allocated linked lists with leak-free memory management
 - Unit tests to verify reliability in a Linux environment
 
-**Tech:** C++, Linux · [Source](https://github.com/gareths1/REPO-NAME)
+**Tech:** C++, Linux
 
 ### Library Database
 A searchable book database that handles hundreds of books.
@@ -35,7 +35,17 @@ A searchable book database that handles hundreds of books.
 - Skew trees and dynamic memory allocation for efficient storage
 - Search by title and by content
 
-**Tech:** C++ · [Source](https://github.com/gareths1/REPO-NAME)
+**Tech:** C++, data structures (skew tree)
+
+### C Shell
+A simple command-line shell built in C with custom command parsing and built-in commands.
+
+- Command history and /proc file reading
+- Environment variable expansion and quoted arguments
+- Process creation using fork() and execvp()
+
+Tech: C, Linux
+
 
 ## Hardware
 
@@ -45,7 +55,7 @@ A stoplight simulator running on a Raspberry Pi.
 - Controlled through GPIO under embedded Linux
 - [One or two sentences on what it does, e.g. timing cycles, a pedestrian button]
 
-**Tech:** Raspberry Pi, [C/Python] · [Source](https://github.com/gareths1/REPO-NAME)
+**Tech:** Raspberry Pi, [Python]
 
 ### Pipelined UMBC Power Processor
 A pipelined general-purpose processor designed in MATLAB Simulink.
