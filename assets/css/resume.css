@@ -1,0 +1,163 @@
+/* Scoped to .resume so it won't fight your Jekyll theme. */
+
+.resume {
+  --ink: #1d1d1f;
+  --muted: #5b5b63;
+  --rule: #d9d9de;
+  --accent: #8a5a00;
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+  color: var(--ink);
+  font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  line-height: 1.6;
+}
+
+@media (prefers-color-scheme: dark) {
+  .resume {
+    --ink: #ececf0;
+    --muted: #a3a3ad;
+    --rule: #3a3a42;
+    --accent: #e0b050;
+  }
+}
+
+.resume h1,
+.resume h2,
+.resume h3,
+.resume h4 {
+  font-family: "Helvetica Neue", Arial, system-ui, sans-serif;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.resume-head {
+  padding-bottom: 1.25rem;
+  border-bottom: 2px solid var(--ink);
+  margin-bottom: 2rem;
+}
+
+.resume h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.resume-tagline {
+  margin: 0.35rem 0 0.75rem;
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+.resume-contact {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+  font-size: 0.95rem;
+}
+
+.resume a {
+  color: var(--accent);
+}
+
+.resume section {
+  margin-bottom: 2.25rem;
+}
+
+.resume h2 {
+  font-size: 1.3rem;
+  padding-bottom: 0.35rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.resume h3 {
+  font-size: 1.02rem;
+  font-weight: 600;
+}
+
+.resume h4 {
+  font-size: 0.95rem;
+  margin: 1rem 0 0.25rem;
+}
+
+.entry {
+  margin-bottom: 1.25rem;
+}
+
+.entry-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.15rem 1rem;
+}
+
+.dates {
+  color: var(--muted);
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.resume ul {
+  margin: 0.4rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.resume li {
+  margin-bottom: 0.25rem;
+}
+
+.resume ul.plain {
+  list-style: none;
+  padding-left: 0;
+  font-style: italic;
+}
+
+/* Skills: category on the left, items on the right */
+.skills {
+  display: grid;
+  grid-template-columns: 9rem 1fr;
+  gap: 0.9rem 1.25rem;
+  margin: 0;
+}
+
+.skills dt {
+  font-family: "Helvetica Neue", Arial, system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.skills dd {
+  margin: 0;
+}
+
+.skills ul {
+  margin-top: 0;
+}
+
+@media (max-width: 560px) {
+  .skills {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+  .skills dd {
+    margin-bottom: 0.75rem;
+  }
+  .resume h1 {
+    font-size: 2rem;
+  }
+}
+
+@media print {
+  .resume {
+    --accent: #1d1d1f;
+    padding: 0;
+    max-width: none;
+    font-size: 10.5pt;
+  }
+  .entry {
+    break-inside: avoid;
+  }
+}

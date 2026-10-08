@@ -1,0 +1,50 @@
+--- layout: default title: Resume permalink: /resume/ --- {% assign r = site.data.resume %}
+{{ r.name }}
+{{ r.tagline }}
+
+{{ r.email }} {% if r.phone %}{{ r.phone }}{% endif %} {{ r.location }}
+
+Education
+{{ r.education.school }}, {{ r.education.city }}
+{{ r.education.graduation }}
+{% for d in r.education.degrees %}
+{{ d }}
+{% endfor %}
+Cumulative GPA: {{ r.education.gpa }}
+
+Honors
+{% for h in r.education.honors %}
+{{ h }}
+{% endfor %}
+Employment
+{% for job in r.employment %}
+{{ job.role }}, {{ job.org }}
+{{ job.dates }}
+{% for p in job.points %}
+{{ p }}
+{% endfor %}
+{% endfor %}
+Projects
+{% for proj in r.projects %}
+{% if proj.url %}{{ proj.title }}{% else %}{{ proj.title }}{% endif %}
+{% for p in proj.points %}
+{{ p }}
+{% endfor %}
+{% endfor %}
+Skills
+{% for group in r.skills %}
+{{ group.category }}
+{% for item in group.items %}
+{{ item }}
+{% endfor %}
+{% endfor %}
+Extracurriculars and Certifications
+{% for e in r.extracurriculars %}
+{{ e.title }}
+{{ e.dates }}
+{% if e.points %}
+{% for p in e.points %}
+{{ p }}
+{% endfor %}
+{% endif %}
+{% endfor %}

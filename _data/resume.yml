@@ -1,0 +1,113 @@
+# All resume content lives here. Edit this file to update the site;
+# the layout in resume.html never needs to change.
+
+name: "Gareth Schoeffler"
+tagline: "Computer Science and History student at UMBC"
+email: "gareth87@verizon.net"
+location: "Catonsville, MD"
+# phone: "(410) 259-7838"   # uncomment only if you want it public
+
+education:
+  school: "University of Maryland, Baltimore County"
+  city: "Baltimore, MD"
+  graduation: "Expected December 2027"
+  degrees:
+    - "Bachelor of Arts, History"
+    - "Bachelor of Science, Computer Science"
+    - "Minor in Ancient Studies"
+  gpa: "3.863"
+  honors:
+    - "Honors College"
+    - "President's List: Fall 2023, Fall 2024, Spring 2025, Spring 2026"
+    - "Dean's List: Fall 2023 to present"
+
+skills:
+  - category: "Hardware"
+    items:
+      - "Computer architecture and digital circuit design (Logisim, MATLAB Simulink)"
+      - "Raspberry Pi: embedded Linux, GPIO and peripheral interfacing (C, Python)"
+  - category: "Operating Systems"
+    items:
+      - "Windows 10/11"
+      - "Linux (Ubuntu, Debian)"
+  - category: "Programming"
+    items:
+      - "C++, C, Python, Assembly, Haskell (functional programming)"
+      - "Algorithms and data structures"
+  - category: "Software"
+    items:
+      - "VS Code, PyCharm"
+      - "Microsoft Office (Word, PowerPoint, Excel)"
+      - "JD Edwards (JDE)"
+      - "API development"
+  - category: "Other"
+    items:
+      - "Technical troubleshooting for hardware, software, and networks"
+      - "On-site tech setup and equipment support"
+      - "Computer and printer repair"
+      - "Problem-solving and analytical skills"
+      - "Focused research"
+      - "Written content tailored to diverse audiences and purposes"
+      - "Independent and collaborative project work"
+      - "Team leadership"
+
+projects:
+  - title: "Pipelined UMBC Power Processor"
+    points:
+      - "Engineered a pipelined general-purpose processor, creating components including an ALU, register file, 8-bit register, and a decoder."
+      - "Connected the data path and control logic so the processor could correctly run instructions and move data efficiently."
+    # url: "https://github.com/your-username/your-repo"
+  - title: "Browser History Simulator"
+    points:
+      - "Created custom stack and queue operations using dynamically allocated linked lists in C++, ensuring efficient memory management and preventing leaks."
+      - "Used the custom stack and queue operations to build the simulator, with unit tests to ensure reliability in a Linux environment."
+  - title: "Library Database"
+    points:
+      - "Implemented a C++ library database using dynamic memory allocation and skew trees to efficiently manage and search hundreds of books by title and content."
+
+employment:
+  - role: "Associate Specialist, Business Analyst"
+    org: "Stanley Black & Decker"
+    dates: "June 2026 to August 2026"
+    points:
+      - "Analyzed Order-to-Cash (OTC) and Procure-to-Pay (PTP) processes in JD Edwards (JDE) to identify pain points and recommended 3 solutions."
+      - "Evaluated usage of shipping software to increase OTC efficiency at 7 plants."
+      - "Converted 2 forms and reports from Formscape to BI Publisher to reduce company risk."
+      - "Led the backlog of open and in-progress IT support tickets, resolving 44 tickets."
+  - role: "IT Intern"
+    org: "Smithsonian Folklife Festival"
+    dates: "May 2025 to July 2025"
+    points:
+      - "Provided IT services and support for the festival, including setting up and servicing computers and printers and setting up private networks."
+  - role: "Cook"
+    org: "JL Hospitality at Merriweather Post Pavilion"
+    dates: "April 2025 to present"
+    points:
+      - "Prepare and cook high-volume food items including fried chicken tenders, fries, and grilled burgers for large-scale events."
+  - role: "Crazy Creator"
+    org: "Crazy Mason Milkshake Bar, Old Ellicott City"
+    dates: "July 2022 to July 2025"
+    points:
+      - "Made milkshakes for over 100 customers per shift while maintaining high standards of customer service during high-volume weekends."
+  - role: "Hockey Referee"
+    org: "Southeastern Hockey Officials Association (SHOA)"
+    dates: "August 2021 to August 2023"
+    points:
+      - "Enforced the rules of hockey and promoted a safe playing environment during youth hockey games."
+
+extracurriculars:
+  - title: "Google Certification in IT Support"
+    dates: "May 2026"
+  - title: "Google Certification in Digital Marketing & E-commerce"
+    dates: "April 2026"
+  - title: "UMBC Club Hockey"
+    dates: "September 2023 to present"
+    points:
+      - "Member of the UMBC Club Hockey team competing in the ACCHL."
+  - title: "UMBC Ice Hockey Executive Board"
+    dates: "November 2025 to present"
+    points:
+      - "Vice President (April 2026 to present): supporting team operations, coordinating events and communications, and promoting team engagement and recruitment."
+      - "Social Chair (November 2025 to April 2026): organized fundraisers and outreach events."
+  - title: "Open Water Diving Certification"
+    dates: "May 2024"
