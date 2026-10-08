@@ -32,11 +32,11 @@ skills:
       - "Linux (Ubuntu, Debian)"
   - category: "Programming"
     items:
-      - "C++, C, Python, Assembly, Haskell (functional programming)"
+      - "C++, C, Python, Assembly, SQL, HTML, Javascript, Haskell (functional programming)"
       - "Algorithms and data structures"
   - category: "Software"
     items:
-      - "VS Code, PyCharm"
+      - "VS Code, PyCharm, Jupyter Notebook"
       - "Microsoft Office (Word, PowerPoint, Excel)"
       - "JD Edwards (JDE)"
       - "API development"
@@ -52,6 +52,11 @@ skills:
       - "Team leadership"
 
 projects:
+
+  - title: "The Daily Waddle: REST API and Discord Bot"
+    points:
+      - "Built a read-only REST API (Python, FastAPI, async SQLAlchemy/SQLite) for 18 penguin species and a Discord bot (discord.py) that posts daily rich embeds from it."
+
   - title: "Pipelined UMBC Power Processor"
     points:
       - "Engineered a pipelined general-purpose processor, creating components including an ALU, register file, 8-bit register, and a decoder."
