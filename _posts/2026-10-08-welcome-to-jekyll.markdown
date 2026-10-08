@@ -1,6 +1,6 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
+layout: page
+title:  "Welcome to Gareth's Homepage!"
 date:   2026-10-08 12:59:18 -0400
 categories: jekyll update
 ---
