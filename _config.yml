@@ -18,12 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Gareth Schoeffler
-email: gareth87@verizon.com
+title: Home
+email: gareth87@verizon.net
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Personal website and portfolio of Gareth Schoeffler, a Computer Science and 
+  History student at the University of Maryland, Baltimore County. Explore my projects, 
+  technical experience, academic interests, and work in software development, IT, and research.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gareths1.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  gareths1
@@ -31,11 +32,10 @@ linkedin_username:  gareth-schoeffler-b1840532a
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
 
 header_pages:
   - about.markdown
+  - projects.markdown
   - resume.html
 
 # Exclude from processing.
