@@ -9,4 +9,3 @@ My name is Gareth Schoeffler. I am a Computer Science and History student at the
 I am also completing a minor in Ancient Studies. My interest in history comes from a curiosity about how people, cultures, and events have shaped the world we live in today. Outside of academics, I play ice hockey, which has been a major part of my life. Hockey has taught me the importance of teamwork, communication, and commitment. Whether I am studying the past, working on a technical project, or competing on the ice, I enjoy challenging myself and continuing to learn.
 
 
-[jekyll-organization]: https://github.com/jekyll
