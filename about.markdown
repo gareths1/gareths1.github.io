@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-![Headshot of Gareth Schoeffler](/assets/image/garethpic.jpeg)
+![Headshot of Gareth Schoeffler](/assets/images/garethpic.jpeg)
 
 My name is Gareth Schoeffler. I am a Computer Science and History student at the University of Maryland, Baltimore County, with a strong interest in technology, problem-solving, and research. I have experience in software development, IT support, business analysis, and hardware, with skills in C++, Python, C, and Linux. I enjoy working on technical projects, learning new technologies, and finding practical solutions to complex problems.
 
